@@ -265,8 +265,12 @@ nav {
 }
 
 @media (width < 900px) {
-  .nav__links {
+  .nav__links a {
     display: none;
+  }
+
+  .nav__links .contact_us {
+    display: block;
   }
 
   .content h1 {
